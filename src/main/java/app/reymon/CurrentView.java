@@ -1,4 +1,4 @@
-package dev.reymon.graphics.javafx;
+package app.reymon;
 
 public enum CurrentView {
 
@@ -8,6 +8,10 @@ public enum CurrentView {
 	CONSTANT_MULTIPLICATIVE,
 	CONGRUENTIAL_LINEAL,
 	CONGRUENTIAL_MULTIPLICATIVE,
-	CONGRUENTIAL_ADDITIVE
+	CONGRUENTIAL_ADDITIVE,
+	AVERAGE_TEST,
+	VARIANCE_TEST,
+	SQUARE_CHI,
+	KOLMOGOROV_SMIRNOV
 	
 }
